@@ -1,0 +1,14 @@
+page-room {
+    ion-content {
+        background: url(../assets/imgs/room_bg.png) no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+        .item-md, .item-ios {
+          background: none;
+        }
+      }
+      ion-navbar {
+        background: #53e3a6;
+      }
+}
